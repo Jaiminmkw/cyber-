@@ -43,25 +43,22 @@ if in case Its does not work
    Option 2: Change Display Scaling (Windows)
       - If you’re using a high-resolution screen, the Tools menu may be hidden. Try this:
 
-       1. Close Arduino IDE.
-
-       2. Right-click Arduino IDE shortcut → Click Properties.
-
-       3. Go to the Compatibility tab.
-
-       4. Click Change high DPI settings.
-
-       5. Enable Override high DPI scaling behavior and set it to System.
-
-        6. Click Apply → Restart Arduino IDE.
+         1. Close Arduino IDE.
+         2. Right-click Arduino IDE shortcut → Click Properties.
+         3. Go to the Compatibility tab.
+         4. Click Change high DPI settings.
+         5. Enable Override high DPI scaling behavior and set it to System.
+         6. Click Apply → Restart Arduino IDE.
 
 2. Second Problem : Fix ESP8266 Driver Not Showing in Device Manager
    If your ESP8266 is not detected, it could be a driver issue or hardware issue.
-     Option 1: Check USB Cable & Ports
+
+    Option 1: Check USB Cable & Ports
          - Try a different USB cable (some cables are power-only, no data transfer).
          - Use a different USB port (preferably USB 2.0 instead of USB 3.0).
          - Try another computer to see if the issue is specific to your system.
-     Option 2: Manually Install CH340 or CP2102 Drivers
+
+    Option 2: Manually Install CH340 or CP2102 Drivers
      Your ESP8266 uses CH340 or CP2102 for USB-to-serial communication.
          For CH340 Driver (Common for ESP8266)
                1. Download the driver:
