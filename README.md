@@ -53,33 +53,34 @@ if in case Its does not work
 2. Second Problem : Fix ESP8266 Driver Not Showing in Device Manager.
           If your ESP8266 is not detected, it could be a driver issue or hardware issue.
 
-    Option 1: Check USB Cable & Ports
-         - Try a different USB cable (some cables are power-only, no data transfer).
-         - Use a different USB port (preferably USB 2.0 instead of USB 3.0).
-         - Try another computer to see if the issue is specific to your system.
+Option 1: Check USB Cable & Ports
 
-    Option 2: Manually Install CH340 or CP2102 Drivers
+   - Try a different USB cable (some cables are power-only, no data transfer).
+   - Use a different USB port (preferably USB 2.0 instead of USB 3.0).
+   - Try another computer to see if the issue is specific to your system.
+
+Option 2: Manually Install CH340 or CP2102 Drivers
      Your ESP8266 uses CH340 or CP2102 for USB-to-serial communication.
 
    For CH340 Driver (Common for ESP8266)
-               1. Download the driver:
-                 Link : https://www.wch.cn/downloads/CH341SER_EXE.html
-               2. Run CH341SER.EXE and install the driver.
-               3. Restart your PC.
+         1. Download the driver:
+            Link : https://www.wch.cn/downloads/CH341SER_EXE.html
+         2. Run CH341SER.EXE and install the driver.
+         3. Restart your PC.
 
-    For CP2102 Driver (Alternative USB Chip)
+   For CP2102 Driver (Alternative USB Chip)
        1. Download:
          Link : https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
        2. Install the driver and restart your PC.
 
-   Option 3: Manually Add COM Port
-      If the ESP8266 is not showing in Device Manager:
-         1. Open Device Manager (Win + X → Device Manager).
-         2. Click View → Select Show Hidden Devices.
-         3. Look for Ports (COM & LPT):
-                - If you see an unknown device, right-click → Update Driver.
-                - If the COM port is missing, scan for hardware changes:
-                   - Click Action → Select Scan for hardware changes.
+Option 3: Manually Add COM Port
+   If the ESP8266 is not showing in Device Manager:
+      1. Open Device Manager (Win + X → Device Manager).
+      2. Click View → Select Show Hidden Devices.
+      3. Look for Ports (COM & LPT):
+         - If you see an unknown device, right-click → Update Driver.
+         - If the COM port is missing, scan for hardware changes:
+         - Click Action → Select Scan for hardware changes.
 
 Final Check: Try Another PC
    If nothing works, try plugging your ESP8266 into another computer.
