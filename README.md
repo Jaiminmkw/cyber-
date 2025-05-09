@@ -63,6 +63,7 @@ Option 2: Manually Install CH340 or CP2102 Drivers
      Your ESP8266 uses CH340 or CP2102 for USB-to-serial communication.
 
    For CH340 Driver (Common for ESP8266)
+        
          1. Download the driver:
             Link : https://www.wch.cn/downloads/CH341SER_EXE.html
          2. Run CH341SER.EXE and install the driver.
