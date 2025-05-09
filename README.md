@@ -70,12 +70,14 @@ Option 2: Manually Install CH340 or CP2102 Drivers
          3. Restart your PC.
 
    For CP2102 Driver (Alternative USB Chip)
+      
        1. Download:
          Link : https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
        2. Install the driver and restart your PC.
 
 Option 3: Manually Add COM Port
    If the ESP8266 is not showing in Device Manager:
+     
       1. Open Device Manager (Win + X → Device Manager).
       2. Click View → Select Show Hidden Devices.
       3. Look for Ports (COM & LPT):
@@ -85,6 +87,7 @@ Option 3: Manually Add COM Port
 
 Final Check: Try Another PC
    If nothing works, try plugging your ESP8266 into another computer.
+     
       - If it works there, the issue is driver-related.
       - If it still doesn’t work, your ESP8266 board may be faulty.
 
