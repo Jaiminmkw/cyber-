@@ -50,8 +50,8 @@ if in case Its does not work
          5. Enable Override high DPI scaling behavior and set it to System.
          6. Click Apply → Restart Arduino IDE.
 
-2. Second Problem : Fix ESP8266 Driver Not Showing in Device Manager
-   If your ESP8266 is not detected, it could be a driver issue or hardware issue.
+2. Second Problem : Fix ESP8266 Driver Not Showing in Device Manager.
+          If your ESP8266 is not detected, it could be a driver issue or hardware issue.
 
     Option 1: Check USB Cable & Ports
          - Try a different USB cable (some cables are power-only, no data transfer).
