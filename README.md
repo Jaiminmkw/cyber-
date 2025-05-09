@@ -34,7 +34,8 @@ Please check the legal regulations in your country before using it.
 ## Optional 
 if in case Its does not work 
 1. First Problem : Tools option is not Visible in Arduino IDE
-   Option 1: Restart Arduino IDE
+
+Option 1: Restart Arduino IDE
    - Close Arduino IDE completely.
    - Reopen Arduino IDE and check if the Tools menu appears.
 
