@@ -72,7 +72,7 @@ Option 2: Manually Install CH340 or CP2102 Drivers
    For CP2102 Driver (Alternative USB Chip)
       
        1. Download:
-         Link : https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
+           Link : https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
        2. Install the driver and restart your PC.
 
 Option 3: Manually Add COM Port
